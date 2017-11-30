@@ -4,7 +4,6 @@
 mkdir -p _build
 
 # Set up the pdflatex options
-TEX_OPTS="-halt-on-error ${TEX_OPTS}"
 TEX_OPTS="-interaction nonstopmode ${TEX_OPTS}"
 TEX_OPTS="-output-directory _build ${TEX_OPTS}"
 
